@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Fira Sans", serif;
+}
+
+/* website all colors start */
+:root {
+  --MintFrost: #c6e4d6;
+  --TranslucentSky: rgba(84, 144, 245, 0.2);
+  --SkylineBlue: #5490f5;
+  --Green: #09a15c;
+  --WarmVanilla: #f7ebcf;
+  --GoldenSun: #ffc239;
+  --h1FontColor: #0e0e0e;
+  --pFontColor: rgba(14, 14, 14, 0.7);
+}
+/* website all colors end */
+
+body {
+  max-width: 1280px;
+  margin: 0 160px;
+}
+
+/* nav section start */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 31px 0;
+}
+
+nav .logo {
+  color: var(--h1FontColor);
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.SignInButton {
+  color: var(--Green);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 106, 80);
+  background: transparent;
+}
+
+/* nav section start */
