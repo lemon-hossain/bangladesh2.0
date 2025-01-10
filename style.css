@@ -23,6 +23,7 @@
 body {
   max-width: 1280px;
   margin: 0 auto;
+  background-color: #f5f5f5;
 }
 
 /* nav section start */
@@ -106,6 +107,7 @@ nav .logo {
 .pillars_of_bangladesh .cards {
   display: flex;
   justify-content: space-around;
+  gap: 24px;
 }
 
 .pillars_of_bangladesh .card {
@@ -133,6 +135,7 @@ nav .logo {
 /* the vision of future start start */
 .the_vision_of_future {
   margin: 80px 0 32px 0;
+  gap: 24px;
 }
 
 .the_vision_of_future h2 {
@@ -213,3 +216,28 @@ nav .logo {
   border: none;
 }
 /* the vision of future start end */
+
+/* dr. muhammad yunus section start */
+.muhammad_yunus {
+  padding: 48px 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+  margin: 32px 0 80px 0;
+}
+
+.muhammad_yunus .yunus_first_p {
+  color: rgba(14, 14, 14, 0.8) te;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: -45px 0 12px 0;
+}
+
+.muhammad_yunus p {
+  color: rgba(14, 14, 14, 0.8) te;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* dr. muhammad yunus section end */
