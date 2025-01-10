@@ -38,7 +38,7 @@ nav .logo {
   font-weight: 700;
 }
 
-.SignInButton {
+.sign_in_button {
   color: var(--Green);
   font-size: 18px;
   font-weight: 600;
@@ -47,5 +47,46 @@ nav .logo {
   border: 1px solid rgb(0, 106, 80);
   background: transparent;
 }
+/* nav section end */
 
-/* nav section start */
+/* hero section start */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--MintFrost);
+  border-radius: 24px;
+  padding: 80px 80px 80px 100px;
+  margin: 20px 0 80px 0;
+  gap: 64px;
+}
+
+.hero h4 {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.hero h1 {
+  color: var(--h1FontColor);
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 24px;
+  line-height: 67px;
+}
+
+.explore_button {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: var(--Green);
+  padding: 17px 34px;
+  border-radius: 8px;
+  border: none;
+}
+
+.explore_button:hover {
+  background-color: black;
+}
+/* hero section end */
