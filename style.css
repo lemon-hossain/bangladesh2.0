@@ -22,7 +22,7 @@
 
 body {
   max-width: 1280px;
-  margin: 0 160px;
+  margin: 0 auto;
 }
 
 /* nav section start */
@@ -90,3 +90,42 @@ nav .logo {
   background-color: black;
 }
 /* hero section end */
+
+/* pillars of bangladesh section start  */
+.pillars_of_bangladesh {
+  margin: 80px 0;
+}
+
+.pillars_of_bangladesh h2 {
+  color: var(--h1FontColor);
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 32px;
+}
+
+.pillars_of_bangladesh .cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pillars_of_bangladesh .card {
+  width: 302px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 24px;
+}
+
+.pillars_of_bangladesh h4 {
+  color: var(--h1FontColor);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 25px 0 12px 0;
+}
+
+.pillars_of_bangladesh p {
+  color: var(--h1FontColor);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* pillars of bangladesh section start  */
