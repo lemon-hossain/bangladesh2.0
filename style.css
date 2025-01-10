@@ -48,6 +48,15 @@ nav .logo {
   border: 1px solid rgb(0, 106, 80);
   background: transparent;
 }
+
+.sign_in_button:hover {
+  color: black;
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: 1px solid black;
+  background: transparent;
+  transition: all 0.5s;
+}
 /* nav section end */
 
 /* hero section start */
@@ -118,7 +127,7 @@ nav .logo {
   padding: 24px;
 }
 
-.pillars_of_bangladesh .card:hover{
+.pillars_of_bangladesh .card:hover {
   background-color: var(--MintFrost);
 }
 
@@ -245,7 +254,7 @@ nav .logo {
   border: none;
 }
 
-.learn_more3:hover{
+.learn_more3:hover {
   color: var(--GoldenSun);
   background: white;
   transition: all.5s;
@@ -267,6 +276,13 @@ nav .logo {
   font-weight: 400;
   line-height: 24px;
   margin: -45px 0 12px 0;
+}
+
+.muhammad_yunus h3{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 4px;
 }
 
 .muhammad_yunus p {
@@ -319,6 +335,11 @@ select {
   font-size: 16px;
   font-weight: 500;
 }
+
+select:hover {
+  background: white;
+}
+
 td {
   padding: 20px;
   border: 1px solid rgba(14, 14, 14, 0.15);
@@ -329,5 +350,82 @@ td {
   font-size: 16px;
   font-weight: 600;
 }
-
 /* opinion matters section end */
+
+/* recent news section start */
+.recent_news {
+  padding: 80px 0;
+}
+
+.recent_news h2 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.recent_news p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 32px;
+}
+
+.bangladesh_launches_new_satellite {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 24px;
+  padding: 48px;
+  background: rgb(255, 255, 255);
+  margin-bottom: 24px;
+  gap: 32px;
+}
+
+.bangladesh_launches_new_satellite .satelite {
+  border-radius: 24px;
+}
+
+.bangladesh_launches_new_satellite h2 {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+
+.bangladesh_launches_new_satellite .al_jazeera {
+  padding-bottom: 12px;
+}
+
+.bangladesh_launches_new_satellite h5 {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 12px;
+}
+
+.bangladesh_launches_new_satellite h6 {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 32px;
+}
+
+.read_more {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  background: var(--Green);
+  width: 16%;
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.read_more:hover {
+  color: white;
+  background: black;
+  transition: all 0.5s;
+}
+/* recent news section end */
