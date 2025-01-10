@@ -129,3 +129,87 @@ nav .logo {
   font-weight: 400;
 }
 /* pillars of bangladesh section start  */
+
+/* the vision of future start start */
+.the_vision_of_future {
+  margin: 80px 0 32px 0;
+}
+
+.the_vision_of_future h2 {
+  color: var(--h1FontColor);
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.the_vision_of_future p {
+  color: var(--h1FontColor);
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 32px;
+  line-height: 24px;
+}
+
+.the_vision_of_future .card2_p {
+  margin-bottom: 28px;
+}
+.the_vision_of_future .cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.the_vision_of_future .card {
+  width: 410.67px;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.the_vision_of_future .card1 {
+  background: rgba(84, 144, 245, 0.2);
+}
+
+.the_vision_of_future .card2 {
+  background: var(--MintFrost);
+}
+
+.the_vision_of_future .card3 {
+  background: var(--WarmVanilla);
+}
+
+.the_vision_of_future h4 {
+  color: var(--h1FontColor);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 25px 0 12px 0;
+}
+
+.learn_more {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  background: var(--SkylineBlue);
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.learn_more2 {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  background: var(--Green);
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.learn_more3 {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  background: var(--GoldenSun);
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+}
+/* the vision of future start end */
