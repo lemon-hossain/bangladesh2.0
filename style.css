@@ -118,6 +118,10 @@ nav .logo {
   padding: 24px;
 }
 
+.pillars_of_bangladesh .card:hover{
+  background-color: var(--MintFrost);
+}
+
 .pillars_of_bangladesh h4 {
   color: var(--h1FontColor);
   font-size: 20px;
@@ -156,6 +160,7 @@ nav .logo {
 .the_vision_of_future .card2_p {
   margin-bottom: 28px;
 }
+
 .the_vision_of_future .cards {
   display: flex;
   justify-content: space-around;
@@ -171,12 +176,24 @@ nav .logo {
   background: rgba(84, 144, 245, 0.2);
 }
 
+.the_vision_of_future .card1:hover {
+  background: rgba(24, 89, 203, 0.2);
+}
+
 .the_vision_of_future .card2 {
   background: var(--MintFrost);
 }
 
+.the_vision_of_future .card2:hover {
+  background: #a2d5be;
+}
+
 .the_vision_of_future .card3 {
   background: var(--WarmVanilla);
+}
+
+.the_vision_of_future .card3:hover {
+  background: #efe5c4;
 }
 
 .the_vision_of_future h4 {
@@ -196,6 +213,12 @@ nav .logo {
   border: none;
 }
 
+.learn_more:hover {
+  color: var(--SkylineBlue);
+  background: white;
+  transition: all.5s;
+}
+
 .learn_more2 {
   color: white;
   font-size: 16px;
@@ -206,6 +229,12 @@ nav .logo {
   border: none;
 }
 
+.learn_more2:hover {
+  color: var(--Green);
+  background: white;
+  transition: all.5s;
+}
+
 .learn_more3 {
   color: white;
   font-size: 16px;
@@ -214,6 +243,12 @@ nav .logo {
   padding: 11px 20px;
   border-radius: 8px;
   border: none;
+}
+
+.learn_more3:hover{
+  color: var(--GoldenSun);
+  background: white;
+  transition: all.5s;
 }
 /* the vision of future start end */
 
@@ -227,7 +262,7 @@ nav .logo {
 }
 
 .muhammad_yunus .yunus_first_p {
-  color: rgba(14, 14, 14, 0.8) te;
+  color: rgba(14, 14, 14, 0.8);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -235,9 +270,64 @@ nav .logo {
 }
 
 .muhammad_yunus p {
-  color: rgba(14, 14, 14, 0.8) te;
+  color: rgba(14, 14, 14, 0.8);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }
 /* dr. muhammad yunus section end */
+
+/* opinion matters section start */
+.opinion_matters {
+  margin: 80px 0;
+}
+.tabels {
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 32px;
+}
+
+.questions_opinion {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--MintFrost);
+  padding: 24px;
+}
+
+.questions_opinion {
+  color: rgb(14, 14, 14);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.opinion_matters h1 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+select {
+  width: 130px;
+  border-radius: 4px;
+  background: rgb(198, 228, 214);
+  padding: 10px 14px;
+  font-size: 16px;
+  font-weight: 500;
+}
+td {
+  padding: 20px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.questions {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* opinion matters section end */
