@@ -499,11 +499,11 @@ td {
 
 .done_now {
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   padding: 17px 34px;
   margin-bottom: 80px;
-  background: var(--Green);
+  background: #006a50;
   border-radius: 8px;
   border: none;
 }
@@ -514,3 +514,81 @@ td {
   transition: al 0.5s;
 }
 /* donate today section end */
+
+/* subscribe newsletter section start */
+.subscribe_newsletter {
+  padding: 80px 100px;
+  background: var(--MintFrost);
+  border-radius: 24px;
+  margin: 80px 0;
+}
+
+.subscribe_newsletter h2 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.subscribe_newsletter h6 {
+  padding: 16px 200px 24px 200px;
+  color: rgb(14, 14, 14);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.enail_subscribe_button {
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+.enail_subscribe_button input {
+  width: 50%;
+  padding: 17px 34px;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+}
+
+.enail_subscribe_button input:hover {
+  border: none;
+  outline: none;
+}
+
+.enail_subscribe_button input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.subscribe_button {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding: 14.5px 34px;
+  border-radius: 0px 8px 8px 0px;
+  background: #006a50;
+  position: relative;
+  border: none;
+  right: 5px;
+  top: 2px;
+}
+
+.subscribe_button:hover {
+  color: white;
+  background: black;
+  transition: all 0.5s;
+}
+
+.subscribe_newsletter p{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+/* subscribe newsletter section end */
